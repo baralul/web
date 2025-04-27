@@ -1,0 +1,45 @@
+/* css/style.css */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: #1f1f1f;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .navbar .navbar-brand { color: #ffffff; font-weight: bold; }
+  .navbar-brand:hover { text-decoration: none;}
+  .navbar .nav-link { color: #a0a0a0; margin-left: 0.5rem; margin-right: 0.5rem; transition: color 0.2s ease-in-out; }
+  .navbar .nav-link:hover,
+  .navbar .nav-link.active { color: #ffffff; }
+  .navbar-toggler { border-color: rgba(255, 255, 255, 0.1); }
+  .navbar-toggler-icon { background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+  
+  /* Judul Halaman */
+  h1, h2 { color: #ffffff; margin-bottom: 1.5rem; }
+  
+  /* Text Styling */
+  .text-001 { font-style: italic; color: #fff; font-size: 1.1rem; }
+  
+  /* Link Styling */
+  a { color: #61dafb; text-decoration: none; transition: color 0.2s ease-in-out; }
+  a:hover { color: #ffffff; text-decoration: underline; }
+  
+  /* Contact Links List */
+  .contact-links { list-style: none; padding-left: 0; }
+  .contact-links li { margin-bottom: 0.8rem; }
+  .contact-links a { font-size: 1.1rem; }
+  
+  /* Footer Styling */
+  footer { background-color: #1f1f1f; color: #888; padding: 1rem 0; margin-top: auto; text-align: center; font-size: 0.9em; }
